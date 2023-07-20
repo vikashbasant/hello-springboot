@@ -1,4 +1,4 @@
-package com.kash.controller;
+package com.kash;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;

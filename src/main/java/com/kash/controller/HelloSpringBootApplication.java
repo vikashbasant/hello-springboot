@@ -1,14 +1,11 @@
-import com.kash.controller.College;
+package com.kash.controller;
+
 import org.springframework.boot.SpringApplication;
-import org.springframework.boot.SpringBootConfiguration;
-import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.ComponentScan;
 
-@SpringBootConfiguration
-@ComponentScan("com.kash.controller")
-@EnableAutoConfiguration
+@SpringBootApplication
 public class HelloSpringBootApplication {
     public static void main(String[] args) {
         // start app from here:
